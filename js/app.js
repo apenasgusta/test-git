@@ -3,7 +3,7 @@ let amigos = [];
 function adicionar(){
     let amigo = document.getElementById('nome-amigo');
     if (amigo.value == ''){
-        alert('digite um nome')
+        alert('digite um nome do viado')
         return;
     }
     if(amigos.includes(amigo.value)){
